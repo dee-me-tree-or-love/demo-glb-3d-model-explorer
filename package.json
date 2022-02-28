@@ -1,0 +1,35 @@
+{
+  "name": "jyfoye",
+  "version": "1.0.0",
+  "description": "Simple 3D model explorer setup. Focus on organized component-structure. Feedback is welcome! ",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@react-three/drei": "8.10.7",
+    "@react-three/fiber": "7.0.26",
+    "dependency-cruiser": "11.3.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.138.0",
+    "zustand": "3.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "depcruise:src:save-temp": "depcruise --include-only \"^src\" --output-type dot src > .tmp_src_imports.dot"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
